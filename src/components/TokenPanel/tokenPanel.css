@@ -1,0 +1,23 @@
+.token-container {
+    height: 200px;
+    background-color: rgb(118, 225, 225);
+    box-shadow: black 0px 0px 3px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.token-container textarea {
+    resize: none;
+    background-color: aliceblue;
+    flex-grow: 1;
+}
+.token-container button {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

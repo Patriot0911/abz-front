@@ -1,0 +1,31 @@
+.create-user-container {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.create-user-container .user-create-form {
+    background-color: rgba(164, 177, 239, 0.571);
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: black 0px 3px 5px;
+    padding: 40px;
+}
+.create-user-container .user-create-form input {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.create-user-container .user-create-form  button{
+    font-size: 20px;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
